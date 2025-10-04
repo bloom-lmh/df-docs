@@ -1,0 +1,65 @@
+import { defineConfig } from 'vitepress';
+import path from 'path';
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig({
+  title: 'DataFaker',
+  description: '强大的数据mock工具，依托faker.js，实现各种数据mock场景',
+  vite: {
+    resolve: {
+      alias: {
+        // 配置路径别名
+        '@': path.resolve(__dirname, './'),
+      },
+    },
+  },
+  markdown: {
+    lineNumbers: true,
+    breaks: true,
+    math: true,
+  },
+  themeConfig: {
+    /* logo: './logo.png', */
+    // https://vitepress.dev/reference/default-theme-config
+    nav: [{ text: '指南', link: '/什么是DataFaker' }],
+    search: { provider: 'local' },
+    outline: {
+      level: 'deep',
+      label: '目录',
+    },
+    sidebar: [
+      {
+        text: '简介',
+        items: [
+          { text: '什么是DataFaker？', link: '/什么是DataFaker.md' },
+          { text: '快速开始', link: '/快速开始.md' },
+          { text: '基本使用', link: '/基本使用' },
+        ],
+      },
+      {
+        text: '核心概念',
+        items: [
+          { text: '模板语法', link: '/模板语法' },
+          { text: '数据模型', link: '/数据模型' },
+          { text: '核心配置', link: '/核心配置' },
+        ],
+      },
+      {
+        text: '实验性功能',
+        items: [
+          { text: '装饰器语法', link: '/装饰器语法' },
+          { text: '模拟业务层', link: '/模拟业务层' },
+        ],
+      },
+      {
+        text: '相关链接',
+        items: [
+          { text: 'faker.js', link: 'https://github.com/Marak/faker.js' },
+          { text: 'axios-plus', link: 'https://github.com/axios/axios-plus' },
+        ],
+      },
+    ],
+
+    socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
+  },
+});
