@@ -40,8 +40,12 @@ export default defineConfig({
         text: '核心概念',
         items: [
           { text: '模板语法', link: '/模板语法' },
+          { text: '唯一值', link: '/唯一值' },
+          { text: '数据引用', link: '/数据引用' },
           { text: '数据模型', link: '/数据模型' },
-          { text: '核心配置', link: '/核心配置' },
+          { text: '多语言', link: '/多语言' },
+          { text: '后处理器', link: '/后处理器' },
+          { text: '配置优先级', link: '/核心配置' },
         ],
       },
       {
