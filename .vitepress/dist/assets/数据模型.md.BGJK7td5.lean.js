@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as n,ag as l}from"./chunks/framework.B-XtCDNB.js";const g=JSON.parse('{"title":"数据模型","description":"","frontmatter":{},"headers":[],"relativePath":"数据模型.md","filePath":"数据模型.md"}'),p={name:"数据模型.md"};function h(e,s,k,t,E,r){return n(),a("div",null,[...s[0]||(s[0]=[l("",50)])])}const y=i(p,[["render",h]]);export{g as __pageData,y as default};

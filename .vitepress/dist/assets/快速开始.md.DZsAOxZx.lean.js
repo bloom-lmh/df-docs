@@ -1,0 +1,1 @@
+import{_ as e,c as s,o as t,ag as i}from"./chunks/framework.B-XtCDNB.js";const _=JSON.parse('{"title":"快速开始","description":"","frontmatter":{},"headers":[],"relativePath":"快速开始.md","filePath":"快速开始.md"}'),n={name:"快速开始.md"};function r(d,a,l,p,o,c){return t(),s("div",null,[...a[0]||(a[0]=[i("",4)])])}const m=e(n,[["render",r]]);export{_ as __pageData,m as default};

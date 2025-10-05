@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as n,ag as l}from"./chunks/framework.B-XtCDNB.js";const g=JSON.parse('{"title":"数据生成钩子","description":"","frontmatter":{},"headers":[],"relativePath":"数据生成钩子.md","filePath":"数据生成钩子.md"}'),p={name:"数据生成钩子.md"};function h(e,s,k,t,r,E){return n(),a("div",null,[...s[0]||(s[0]=[l("",46)])])}const c=i(p,[["render",h]]);export{g as __pageData,c as default};
