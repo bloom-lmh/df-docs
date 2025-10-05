@@ -44,8 +44,7 @@ export default defineConfig({
           { text: '数据引用', link: '/数据引用' },
           { text: '数据模型', link: '/数据模型' },
           { text: '多语言', link: '/多语言' },
-          { text: '后处理器', link: '/后处理器' },
-          { text: '配置优先级', link: '/核心配置' },
+          { text: 'Hooks', link: '/数据生成钩子' },
         ],
       },
       {
@@ -58,8 +57,8 @@ export default defineConfig({
       {
         text: '相关链接',
         items: [
-          { text: 'faker.js', link: 'https://github.com/Marak/faker.js' },
-          { text: 'axios-plus', link: 'https://github.com/axios/axios-plus' },
+          { text: 'faker.js', link: 'https://faker.nodejs.cn/guide/unique.html' },
+          { text: 'axios-plus', link: 'https://github.com/bloom-lmh/AxiosPlus' },
         ],
       },
     ],
