@@ -5,7 +5,6 @@ import path from 'path';
 export default defineConfig({
   title: 'DataFaker',
   description: '强大的数据mock工具，依托faker.js，实现各种数据mock场景',
-  base: './',
   vite: {
     resolve: {
       alias: {
