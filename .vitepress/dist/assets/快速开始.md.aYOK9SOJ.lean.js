@@ -1,1 +1,0 @@
-import{_ as e,c as s,o as t,ag as i}from"./chunks/framework.C-zOf1vr.js";const _=JSON.parse('{"title":"快速开始","description":"","frontmatter":{},"headers":[],"relativePath":"快速开始.md","filePath":"快速开始.md"}'),n={name:"快速开始.md"};function l(r,a,d,p,o,c){return t(),s("div",null,[...a[0]||(a[0]=[i("",4)])])}const m=e(n,[["render",l]]);export{_ as __pageData,m as default};

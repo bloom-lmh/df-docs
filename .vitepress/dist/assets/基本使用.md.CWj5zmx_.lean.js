@@ -1,1 +1,0 @@
-import{_ as i,c as a,o as n,ag as l}from"./chunks/framework.C-zOf1vr.js";const g=JSON.parse('{"title":"基本使用","description":"","frontmatter":{},"headers":[],"relativePath":"基本使用.md","filePath":"基本使用.md"}'),p={name:"基本使用.md"};function e(h,s,k,t,r,d){return n(),a("div",null,[...s[0]||(s[0]=[l("",15)])])}const b=i(p,[["render",e]]);export{g as __pageData,b as default};
