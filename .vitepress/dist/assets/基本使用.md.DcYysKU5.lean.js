@@ -1,1 +1,0 @@
-import{_ as a,c as i,o as n,ag as l}from"./chunks/framework.B-XtCDNB.js";const g=JSON.parse('{"title":"基本使用","description":"","frontmatter":{},"headers":[],"relativePath":"基本使用.md","filePath":"基本使用.md"}'),p={name:"基本使用.md"};function e(h,s,k,t,r,d){return n(),i("div",null,[...s[0]||(s[0]=[l("",15)])])}const b=a(p,[["render",e]]);export{g as __pageData,b as default};

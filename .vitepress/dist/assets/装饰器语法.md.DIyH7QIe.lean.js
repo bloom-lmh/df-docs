@@ -1,1 +1,0 @@
-import{_ as i,c as a,o as n,ag as l}from"./chunks/framework.B-XtCDNB.js";const g=JSON.parse('{"title":"装饰器语法","description":"","frontmatter":{},"headers":[],"relativePath":"装饰器语法.md","filePath":"装饰器语法.md"}'),p={name:"装饰器语法.md"};function h(k,s,e,t,E,r){return n(),a("div",null,[...s[0]||(s[0]=[l("",22)])])}const y=i(p,[["render",h]]);export{g as __pageData,y as default};

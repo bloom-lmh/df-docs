@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as n,ag as e}from"./chunks/framework.C-zOf1vr.js";const o=JSON.parse('{"title":"模拟业务层","description":"","frontmatter":{},"headers":[],"relativePath":"模拟业务层.md","filePath":"模拟业务层.md"}'),t={name:"模拟业务层.md"};function l(p,s,h,k,r,d){return n(),a("div",null,[...s[0]||(s[0]=[e("",5)])])}const c=i(t,[["render",l]]);export{o as __pageData,c as default};

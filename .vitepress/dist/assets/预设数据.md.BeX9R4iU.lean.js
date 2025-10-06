@@ -1,0 +1,1 @@
+import{_ as d,c as e,o,ag as r}from"./chunks/framework.C-zOf1vr.js";const s=JSON.parse('{"title":"预设数据","description":"","frontmatter":{},"headers":[],"relativePath":"预设数据.md","filePath":"预设数据.md"}'),c={name:"预设数据.md"};function a(n,t,l,i,h,m){return o(),e("div",null,[...t[0]||(t[0]=[r("",54)])])}const u=d(c,[["render",a]]);export{s as __pageData,u as default};

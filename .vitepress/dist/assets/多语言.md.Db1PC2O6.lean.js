@@ -1,1 +1,0 @@
-import{_ as i,c as a,o as n,ag as t}from"./chunks/framework.B-XtCDNB.js";const g=JSON.parse('{"title":"多语言","description":"","frontmatter":{},"headers":[],"relativePath":"多语言.md","filePath":"多语言.md"}'),l={name:"多语言.md"};function p(e,s,h,k,r,d){return n(),a("div",null,[...s[0]||(s[0]=[t("",25)])])}const c=i(l,[["render",p]]);export{g as __pageData,c as default};

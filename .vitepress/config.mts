@@ -5,6 +5,7 @@ import path from 'path';
 export default defineConfig({
   title: 'DataFaker',
   description: '强大的数据mock工具，依托faker.js，实现各种数据mock场景',
+  base: './',
   vite: {
     resolve: {
       alias: {
@@ -19,9 +20,10 @@ export default defineConfig({
     math: true,
   },
   themeConfig: {
-    /* logo: './logo.png', */
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [{ text: '指南', link: '/什么是DataFaker' }],
+    nav: [
+      { text: '指南', link: '/什么是DataFaker' },
+      { text: 'API', link: '/预设数据.md' },
+    ],
     search: { provider: 'local' },
     outline: {
       level: 'deep',
@@ -63,6 +65,6 @@ export default defineConfig({
       },
     ],
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/bloom-lmh/data-faker.git' }],
   },
 });

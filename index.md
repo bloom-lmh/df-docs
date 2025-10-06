@@ -4,7 +4,6 @@ layout: home
 hero:
   name: 'DataFaker'
   text: '一款强大的数据mock工具，依托faker.js，实现各种场景的数据mock'
-  tagline: My great project tagline
   actions:
     - theme: brand
       text: 什么是DataFaker？
@@ -14,7 +13,7 @@ hero:
       link: /快速开始
     - theme: alt
       text: GitHub
-      link: https://github.com/axios/axios-plus
+      link: https://github.com/bloom-lmh/data-faker.git
 features:
   - title: 无侵入
     details: DataFaker 依托faker.js，提供了丰富的随机数据生成方式，满足各种场景的数据生成需求
