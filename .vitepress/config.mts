@@ -1,11 +1,21 @@
 import { defineConfig } from 'vitepress';
 import path from 'path';
-
+import { viteStaticCopy } from 'vite-plugin-static-copy';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'DataFaker',
   description: '强大的数据mock工具，依托faker.js，实现各种数据mock场景',
   vite: {
+    plugins: [
+      viteStaticCopy({
+        targets: [
+          {
+            src: '*.txt',
+            dest: '',
+          },
+        ],
+      }),
+    ],
     resolve: {
       alias: {
         // 配置路径别名
