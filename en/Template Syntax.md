@@ -261,5 +261,5 @@ The generated tree-structured data will look like this:
 ```
 
 ::: tip About Recursion Depth
-When using self-references, the default recursion depth is `1`. You can control the depth via the `deep` property—setting it to `0` disables recursion entirely. For more information on configuration options, refer to [Data References](/en/Data-References.md)
+When using self-references, the default recursion depth is `1`. You can control the depth via the `deep` property—setting it to `0` disables recursion entirely. For more information on configuration options, refer to [Data References](/en/Data%20References.md)
 :::

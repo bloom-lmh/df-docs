@@ -38,8 +38,8 @@ By leveraging `faker.js`'s underlying database, `DataFaker` can generate data ac
 'airline.seat'
 ```
 
-For more preset data, please refer to the [API](/en/Preset-Data.md) (Note: The original Chinese path "/zh/预设数据.md" is adjusted to the English path convention here; retain the original path if the English version uses the same Chinese path)
+For more preset data, please refer to the [API](/en/Preset%20Data.md) (Note: The original Chinese path "/zh/预设数据.md" is adjusted to the English path convention here; retain the original path if the English version uses the same Chinese path)
 
 ## Language Environments
 
-Benefiting from `faker.js`'s robust language environment support, `DataFaker` currently supports more than 70 language environments. For details, please refer to the [Multi-language Section](/en/Multi-language.md) (Note: Similarly, the path is adjusted to the English path convention; keep the original if the English documentation uses the Chinese path)
+Benefiting from `faker.js`'s robust language environment support, `DataFaker` currently supports more than 70 language environments. For details, please refer to the [Multi-language Section](/en/Multi-Language%20Support.md) (Note: Similarly, the path is adjusted to the English path convention; keep the original if the English documentation uses the Chinese path)

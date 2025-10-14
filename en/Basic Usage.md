@@ -14,7 +14,7 @@ The `defineModel` method is used to define a data model, and it accepts two para
 - Model name
 - Data template
 
-The data template is an object where the keys are field names. For details, refer to [Template Syntax](/en/Template-Syntax.md) (Note: The original Chinese path "/zh/模板语法.md" is adjusted to follow English documentation path conventions; retain the original path if the English version uses the same Chinese path).
+The data template is an object where the keys are field names. For details, refer to [Template Syntax](/en/Template%20Syntax.md) (Note: The original Chinese path "/zh/模板语法.md" is adjusted to follow English documentation path conventions; retain the original path if the English version uses the same Chinese path).
 
 ```ts
 // Define the model

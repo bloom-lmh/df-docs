@@ -28,7 +28,7 @@ class User {
 To utilize these two classes instead of redefining data models with `defineModel`, you can use decorator syntax to define the existing type classes as `User` and `Address` data models.
 
 - Use the `@DataModel` decorator to define a data model, which accepts a model alias as a parameter.
-- Use the `@DataField` decorator to define fields, consistent with field definitions in [Template Syntax](/en/template-syntax).
+- Use the `@DataField` decorator to define fields, consistent with field definitions in [Template Syntax](/en/Template%20Syntax.md).
 
 As shown below:
 
