@@ -30,7 +30,7 @@ export default defineConfig({
   },
   themeConfig: {
     nav: [
-      { text: '指南', link: '/zh/什么是DataFaker' },
+      { text: 'Guide', link: '/en/What is DataFaker.md' },
       {
         text: '国际化',
         items: [
