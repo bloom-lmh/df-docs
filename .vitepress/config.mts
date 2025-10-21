@@ -70,6 +70,7 @@ export default defineConfig({
             { text: '数据模型', link: '/zh/数据模型' },
             { text: '多语言', link: '/zh/多语言' },
             { text: 'Hooks', link: '/zh/数据生成钩子' },
+            { text: '数据迭代器', link: '/zh/数据迭代器' },
           ],
         },
         {
