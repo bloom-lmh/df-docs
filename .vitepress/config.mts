@@ -4,7 +4,7 @@ import { viteStaticCopy } from 'vite-plugin-static-copy';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'DataFaker',
-  description: '强大的数据mock工具，依托faker.js，实现各种数据mock场景',
+  description: 'A powerful data mock tool, relying on faker.js, to implement various data mock scenarios',
   vite: {
     plugins: [
       viteStaticCopy({
@@ -106,6 +106,7 @@ export default defineConfig({
             { text: 'Data Models', link: '/en/Data Models' },
             { text: 'Multi-Language', link: '/en/Multi-Language Support.md' },
             { text: 'Hooks', link: '/en/Data Generation Hooks.md' },
+            { text: 'Data Iterators', link: '/en/Data Iterators' },
           ],
         },
         {
